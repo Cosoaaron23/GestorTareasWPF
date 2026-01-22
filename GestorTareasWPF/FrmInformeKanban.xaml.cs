@@ -72,7 +72,7 @@ namespace GestorTareasWPF
         }
 
         // ---------------------------------------------------------
-        // 2. MÉTODO CENTRAL DE ACTUALIZACIÓN
+        // 2. MÉTODO CENTRAL DE ACTUALIZACIon
         // ---------------------------------------------------------
         private void ActualizarPantalla(List<TareaModel> tareasParaMostrar)
         {
