@@ -1,0 +1,18 @@
+﻿<Window x:Class="GestorTareasWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:GestorTareasWPF"
+        Title="Tablero Kanban - Práctica 3.1" Height="650" Width="1000"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#Eef2f3" Offset="0.0"/>
+                <GradientStop Color="#8e9eab" Offset="1.0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <local:TaskBoard Margin="20"/>
+    </Grid>
+</Window>
